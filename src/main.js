@@ -20,7 +20,6 @@ class Car {
         this.speed = 5;
         this.bodyColor = [255, 0, 0]; // Red car body
         this.wheelColor =(50, 0, 0);       // Dark gray wheels
-
         // some hints for the fuel object.
         // this.fuel = undefined.
     }
@@ -66,7 +65,6 @@ class Fuel {
     // getRateOfConsumption() => int
     // getFuel() => int 
     // setFuel(litres)
-
 }
 
 
@@ -104,9 +102,9 @@ const sketch = (p5) =>
         // Task 4:
         // create a fuel object here.
         // const fuel = new Fuel("petrol", 50)
-        // and then .move(fuel)
-        // .move should a
-        car.move(0);
+        // and then car.move(fuel)
+
+        // console.log(car.distanceTravlled())
     };
 };
 
